@@ -40,5 +40,5 @@
 ### In the future, we will generate heatmaps for high gradient patches.
 
 ## Pain Points
-### AWS configuration, data storage.
+### Data storage (large image files).
 
