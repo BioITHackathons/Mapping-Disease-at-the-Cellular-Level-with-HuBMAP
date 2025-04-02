@@ -26,7 +26,7 @@
 ![](Images/Diagram.png?raw=true)
 
 ## Aim 1
-### We observe that there tend to be more sclerosed glomeruli in diseased samples. The ratio between functional and sclerosed glomeruli may be a predictor between diseased and non-diseased. Notebook: *notebook location* 
+### We observe that there tend to be more sclerosed glomeruli in diseased samples. The ratio between functional and sclerosed glomeruli may be a predictor between diseased and non-diseased. Notebooks: *Aim1-2.Ratio_AvgDist_from_csv.ipynb*, *Aim1-1.Ratio_AvgDist_from_xml.ipynb* 
 #### Future Aim: Identifying and quantifying interstitial fibrosis between healthy and diseased samples
 
 ## Aim 2
