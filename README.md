@@ -15,6 +15,7 @@
 #### Sourced from the [Human BioMolecular Atlas Program (HuBMAP)](https://portal.hubmapconsortium.org/) 
 #### Example of image used can be found [here](https://portal.hubmapconsortium.org/browse/dataset/c9a15ae1d3afcfdb852004d0c714416e)
 ##### *Entire dataset will be published soon* 
+![](images/KPMP.png?raw=true)
 
 ### Chronic Kidney Disease and Acute Kidney Injury
 #### Sourced from the [Kidney Precision Medicine Project](https://www.kpmp.org/)
