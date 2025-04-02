@@ -1,5 +1,5 @@
 # Mapping-Disease-at-the-Cellular-Level-with-HuBMAP
-#### Team members: Nicholas Lucarelli, Sumanth Devarasetty, Suhas, In-Pyo, Yang
+#### Team members: In-Pyo Baek, Sumanth Devarasetty, Yang Han, Suhas Katari Chaluva Kumar, Nicholas Lucarelli
 
 ## What is the Problem?
 ### The similarities and differences between AKI and CKD are not entirely known in the kidney community. The interplay and overlap between the conditions is not well understood. Qualitative studies also contain inherent biases in training and fatigue.
@@ -20,16 +20,20 @@
 ### Chronic Kidney Disease and Acute Kidney Injury
 #### Sourced from the [Kidney Precision Medicine Project](https://www.kpmp.org/)
 #### Example of image used can be found [here](https://atlas.kpmp.org/spatial-viewer/view)
+![](Images/KPMP.png?raw=true)
 
-## Workflow
-### PLACE WORKFLOW IMAGE HERE
+## General Workflow
+![](Images/Diagram.png?raw=true)
 
 ## Aim 1
 ### We observe that there tend to be more sclerosed glomeruli in diseased samples. The ratio between functional and sclerosed glomeruli may be a predictor between diseased and non-diseased. Notebook: *notebook location* 
 #### Future Aim: Identifying and quantifying interstitial fibrosis between healthy and diseased samples
 
 ## Aim 2
-### We observe that there is more white space, and shorter distance between tubules in AKI samples vs CKD. 
+### We observe that there is more white space, and shorter distance between tubules in AKI samples vs CKD.
+### We also seek to use deep learning methods to analyze image data. We used the [CLAM github repository](https://github.com/mahmoodlab/CLAM) to run multiple instance learning on image patches from healthy, AKI, and CKD samples, with the slide level labels as ground truth. We achieved accuracy of *insert accuracy here*. Selected high gradient patches for each predicted label below! 
+![](Images/CLAM1.png?raw=true)
+##### *From original CLAM github repository*
 
 ## Pain Points
 ### AWS configuration, data storage.
