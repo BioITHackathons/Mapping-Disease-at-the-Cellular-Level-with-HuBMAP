@@ -32,7 +32,7 @@
 ## Aim 2
 ### We observe that there is more white space, and shorter distance between tubules in AKI samples vs CKD.
 ### We also seek to use deep learning methods to analyze image data. We used the [CLAM github repository](https://github.com/mahmoodlab/CLAM) to run multiple instance learning on image patches from healthy, AKI, and CKD samples, with the slide level labels as ground truth. We achieved accuracy of *insert accuracy here*. Selected high gradient patches for each predicted label below! 
-![](Images/CLAM1.png?raw=true)
+![](Images/CLAM1.jpg?raw=true)
 ##### *From original CLAM github repository*
 
 ## Pain Points
