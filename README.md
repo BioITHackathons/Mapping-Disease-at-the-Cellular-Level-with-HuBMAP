@@ -30,7 +30,7 @@
 #### Future Aim: Identifying and quantifying interstitial fibrosis between healthy and diseased samples
 
 ## Aim 2
-### We qualitatively observe that there is more white space between tubules in AKI samples vs CKD. Using the segmented tubules, we further segment the white space within the tubules, and measure the ratio of luminal area to total tubular area. A boxplot of the results are shown below.
+### We qualitatively observe that there is more white space between tubules in AKI samples vs CKD. Using the segmented tubules, we further segment the white space within the tubules, and measure the ratio of luminal area to total tubular area. Notebook can be found at: *Aim2_luminal_fraction.ipynb* A boxplot of the results are shown below.
 ![](Images/BoxPlot.png?raw=true)
 #### 0 = Healthy, 1 = AKI, 2 = CKD
 ### We also seek to use deep learning methods to analyze image data. We used the [CLAM github repository](https://github.com/mahmoodlab/CLAM) to run multiple instance learning on image patches from healthy, AKI, and CKD samples, with the slide level labels as ground truth. We achieved accuracy of *insert accuracy here*. Selected high gradient patches for each predicted label below! 
